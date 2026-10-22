@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contable Andina | Asesoría contable y tributaria</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+  <!-- MENÚ -->
+  <header class="menu">
+    <a href="#" class="logo">
+      <span class="logo-marca">CA</span>
+      <span class="logo-texto">Contable Andina<small>Asesores contables y tributarios</small></span>
+    </a>
+    <button class="boton-menu" id="botonMenu" aria-label="Abrir menú"><i data-lucide="menu"></i></button>
+    <nav id="navegacion">
+      <a href="#servicios">Servicios</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#proceso">Cómo trabajamos</a>
+      <a href="#preguntas">Preguntas</a>
+      <a href="#contacto" class="boton">Solicitar asesoría</a>
+    </nav>
+  </header>
+
+  <!-- PORTADA -->
+  <section class="portada">
+    <div class="portada-texto revelar">
+      <p class="antetitulo">Contabilidad · Impuestos · Nómina</p>
+      <h1>Asesoría contable confiable para personas y pequeñas empresas</h1>
+      <p class="portada-descripcion">Llevamos tu contabilidad, preparamos tus declaraciones y te acompañamos en tus obligaciones con la DIAN, con información clara y a tiempo.</p>
+      <div class="portada-botones">
+        <a href="#contacto" class="boton">Solicitar asesoría</a>
+        <a href="#servicios" class="enlace-flecha">Conocer servicios <i data-lucide="arrow-right"></i></a>
+      </div>
+    </div>
+    <div class="portada-imagen revelar">
+      <img src="img/portada.jpg" alt="Asesora contable revisando documentos con un cliente">
+    </div>
+  </section>
+
+  <!-- FRANJA DE CONFIANZA -->
+  <div class="franja">
+    <div><i data-lucide="user-check"></i><span>Personas naturales</span></div>
+    <div><i data-lucide="store"></i><span>Comercios y pymes</span></div>
+    <div><i data-lucide="briefcase"></i><span>Profesionales independientes</span></div>
+    <div><i data-lucide="monitor"></i><span>Atención virtual en todo el país</span></div>
+  </div>
+
+  <!-- SERVICIOS -->
+  <section id="servicios" class="servicios">
+    <div class="encabezado revelar">
+      <p class="antetitulo">Nuestros servicios</p>
+      <h2>Soluciones contables y tributarias</h2>
+      <p>Servicios pensados para que cumplas con tus obligaciones y tomes mejores decisiones.</p>
+    </div>
+
+    <div class="grid-servicios">
+      <article class="servicio revelar">
+        <i data-lucide="book-open" class="icono"></i>
+        <h3>Contabilidad mensual</h3>
+        <p>Registro contable, conciliaciones bancarias y estados financieros al día.</p>
+      </article>
+      <article class="servicio revelar">
+        <i data-lucide="file-text" class="icono"></i>
+        <h3>Declaración de renta</h3>
+        <p>Revisión de tu obligación de declarar y presentación oportuna ante la DIAN.</p>
+      </article>
+      <article class="servicio revelar">
+        <i data-lucide="receipt" class="icono"></i>
+        <h3>Facturación electrónica</h3>
+        <p>Habilitación ante la DIAN, configuración y acompañamiento en la emisión.</p>
+      </article>
+      <article class="servicio revelar">
+        <i data-lucide="users" class="icono"></i>
+        <h3>Nómina electrónica</h3>
+        <p>Liquidación de nómina y transmisión mensual del documento soporte.</p>
+      </article>
+      <article class="servicio revelar">
+        <i data-lucide="percent" class="icono"></i>
+        <h3>Impuestos y retenciones</h3>
+        <p>Declaraciones de IVA, retención en la fuente e ICA sin errores.</p>
+      </article>
+      <article class="servicio revelar">
+        <i data-lucide="scale" class="icono"></i>
+        <h3>Asesoría tributaria</h3>
+        <p>Orientación para cumplir correctamente y evitar sanciones.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section id="nosotros" class="nosotros">
+    <div class="nosotros-imagen revelar">
+      <img src="img/nosotros.jpg" alt="Equipo de Contable Andina">
+    </div>
+    <div class="nosotros-texto revelar">
+      <p class="antetitulo">Sobre nosotros</p>
+      <h2>Acompañamiento cercano y explicaciones claras</h2>
+      <p>Somos un equipo de asesores contables que trabaja con emprendedores, comerciantes y profesionales independientes. Nuestro compromiso es que entiendas tus números y cumplas tus obligaciones sin contratiempos.</p>
+      <ul class="lista-check">
+        <li><i data-lucide="check"></i> Un asesor asignado que conoce tu caso</li>
+        <li><i data-lucide="check"></i> Recordatorios del calendario tributario</li>
+        <li><i data-lucide="check"></i> Manejo confidencial de tu información</li>
+        <li><i data-lucide="check"></i> Propuestas claras, sin costos ocultos</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PROCESO -->
+  <section id="proceso" class="proceso">
+    <div class="encabezado revelar">
+      <p class="antetitulo">Cómo trabajamos</p>
+      <h2>Un proceso sencillo y ordenado</h2>
+    </div>
+    <div class="grid-pasos">
+      <div class="paso revelar">
+        <span class="numero">01</span>
+        <h3>Diagnóstico</h3>
+        <p>Conversamos sobre tu situación y revisamos tus obligaciones.</p>
+      </div>
+      <div class="paso revelar">
+        <span class="numero">02</span>
+        <h3>Propuesta</h3>
+        <p>Te enviamos un plan de trabajo con alcance, tiempos y costos.</p>
+      </div>
+      <div class="paso revelar">
+        <span class="numero">03</span>
+        <h3>Acompañamiento</h3>
+        <p>Ejecutamos el plan y te informamos de cada avance.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PREGUNTAS FRECUENTES -->
+  <section id="preguntas" class="preguntas">
+    <div class="encabezado revelar">
+      <p class="antetitulo">Preguntas frecuentes</p>
+      <h2>Resolvemos tus dudas</h2>
+    </div>
+
+    <div class="lista-preguntas">
+      <div class="pregunta revelar">
+        <button class="pregunta-titulo">¿Cómo sé si debo declarar renta? <i data-lucide="plus" class="signo"></i></button>
+        <div class="pregunta-respuesta">
+          <p>Depende de tus ingresos, patrimonio, consumos con tarjeta de crédito y otros topes que la DIAN fija cada año. Revisamos tu caso y te indicamos si estás obligado.</p>
+        </div>
+      </div>
+      <div class="pregunta revelar">
+        <button class="pregunta-titulo">¿Mi negocio debe facturar electrónicamente? <i data-lucide="plus" class="signo"></i></button>
+        <div class="pregunta-respuesta">
+          <p>Muchos negocios y contribuyentes están obligados. Analizamos tu situación y, si aplica, te acompañamos en la habilitación paso a paso.</p>
+        </div>
+      </div>
+      <div class="pregunta revelar">
+        <button class="pregunta-titulo">¿Qué es la nómina electrónica? <i data-lucide="plus" class="signo"></i></button>
+        <div class="pregunta-respuesta">
+          <p>Es el documento soporte con el que el empleador reporta a la DIAN los pagos realizados a sus trabajadores. Nosotros lo preparamos y transmitimos por ti.</p>
+        </div>
+      </div>
+      <div class="pregunta revelar">
+        <button class="pregunta-titulo">¿Atienden de forma virtual? <i data-lucide="plus" class="signo"></i></button>
+        <div class="pregunta-respuesta">
+          <p>Sí. Atendemos por videollamada y mensaje en toda Colombia, y de forma presencial con cita previa.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="contacto">
+    <div class="contacto-texto revelar">
+      <p class="antetitulo">Contacto</p>
+      <h2>Solicita una asesoría</h2>
+      <p>Déjanos tus datos y un asesor se comunicará contigo en menos de 24 horas hábiles.</p>
+      <ul class="datos-contacto">
+        <li><i data-lucide="map-pin"></i><div><strong>Ubicación</strong><span>Boyacá, Colombia</span></div></li>
+        <li><i data-lucide="clock"></i><div><strong>Horario</strong><span>Lunes a viernes, 8:00 a.m. – 5:00 p.m.</span></div></li>
+        <li><i data-lucide="monitor"></i><div><strong>Modalidad</strong><span>Virtual y presencial con cita previa</span></div></li>
+      </ul>
+    </div>
+
+    <form id="formulario" class="formulario revelar">
+      <div class="campo">
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" required>
+      </div>
+      <div class="campo">
+        <label for="servicio">Servicio de interés</label>
+        <select id="servicio">
+          <option>Contabilidad mensual</option>
+          <option>Declaración de renta</option>
+          <option>Facturación electrónica</option>
+          <option>Nómina electrónica</option>
+          <option>Impuestos y retenciones</option>
+          <option>Asesoría tributaria</option>
+        </select>
+      </div>
+      <div class="campo">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" rows="4"></textarea>
+      </div>
+      <button type="submit" class="boton boton-ancho">Enviar solicitud</button>
+      <p class="nota-form">Te responderemos por WhatsApp.</p>
+    </form>
+  </section>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="pie">
+    <div class="pie-columnas">
+      <div>
+        <div class="logo logo-pie">
+          <span class="logo-marca">CA</span>
+          <span class="logo-texto">Contable Andina</span>
+        </div>
+        <p>Asesoría contable y tributaria para personas y pequeñas empresas en Colombia.</p>
+      </div>
+      <div>
+        <h4>Servicios</h4>
+        <a href="#servicios">Contabilidad mensual</a>
+        <a href="#servicios">Declaración de renta</a>
+        <a href="#servicios">Facturación electrónica</a>
+        <a href="#servicios">Nómina electrónica</a>
+      </div>
+      <div>
+        <h4>Empresa</h4>
+        <a href="#nosotros">Sobre nosotros</a>
+        <a href="#proceso">Cómo trabajamos</a>
+        <a href="#preguntas">Preguntas frecuentes</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+       <div>
+        <h4>Contacto</h4>
+        <p class="pie-dato"><i data-lucide="map-pin"></i> Boyacá, Colombia</p>
+        <p class="pie-dato"><i data-lucide="clock"></i> Lunes a viernes<br>8:00 a.m. – 5:00 p.m.</p>
+      </div>
+    </div>
+    <p class="copy">© 2026 Contable Andina · Sitio de demostración diseñado por Lina Ramírez</p>
+  </footer>
+
+  <a href="#contacto" class="flotante" title="Contáctanos"><i data-lucide="message-circle"></i></a>
+
+  <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
